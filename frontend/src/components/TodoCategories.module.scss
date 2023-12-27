@@ -1,0 +1,25 @@
+@import "../index";
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.addButton {
+  width: fit-content;
+  height: fit-content;
+  padding: 7px 10px;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  color: $color_white;
+  background-color: $color_blue;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
+

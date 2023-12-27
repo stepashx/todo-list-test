@@ -1,0 +1,18 @@
+@import "../index";
+
+.wrapper {
+  width: 450px;
+  height: 750px;
+  border: 1px solid $color_black_light;
+}
+
+.title {
+  width: fit-content;
+  border-radius: 4px;
+  padding: 3px 5px;
+  margin: 5px;
+}
+
+.content {
+  margin: 10px 5px 5px;
+}
